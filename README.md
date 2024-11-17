@@ -23,14 +23,14 @@ The app features a **user-friendly UI** for managing contacts, and it's connecte
 - **Package Manager**: npm
 
 
-##Challenges and Solutions:
-  #Challenge: Handling controlled inputs in React
+## Challenges and Solutions:
+  # Challenge: Handling controlled inputs in React
     Solution: I encountered an issue where the form inputs were initially uncontrolled (values were undefined) and later became controlled. I ensured the inputs were always controlled by setting initial state values to empty strings in the formData.
   
-  #Challenge: Phone number field validation
+  # Challenge: Phone number field validation
     Solution: I had a problem with the phone number field, where the server rejected null values. I implemented validation on the frontend to ensure the phone number field is not empty before sending the data to the server.
 
-   #Challenge:  Handling frontend using MUI
+   # Challenge:  Handling frontend using MUI
     Solution:This was my first project using the Material UI (MUI) library, and I encountered several challenges during both the setup and usage. Initially, I struggled with understanding the component structure, customization, and how to integrate MUI components with the existing React setup.  To overcome these challenges, I dedicated time to reading through the official MUI documentation and exploring various tutorials and articles. Because of this the project took more time than normal.
 
 ## Setup Instructions
